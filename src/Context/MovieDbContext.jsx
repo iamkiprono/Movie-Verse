@@ -6,7 +6,8 @@ const movieDbContext = createContext()
 
 export const MovieDbProvider = ({children})=>{
    
- const APIKEY = import.meta.env.VITE_APP_APIKEY  
+//  const APIKEY = import.meta.env.VITE_APP_APIKEY  
+ const APIKEY = "aeeb61963da597e184eba3a9b3377487"
  const APIURL = 'https://api.themoviedb.org/3/'
 
  
